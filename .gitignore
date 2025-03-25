@@ -1,0 +1,82 @@
+# git ignore file
+
+# Compiled source #
+###################
+*.pdb
+*pingme.txt
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.bak
+*.cache
+*.ilk
+*.log
+*.com
+*.obj
+*.class
+*.exe
+*.o
+*.so
+*.*sdf
+obj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+_ReSharper*/
+Main/Bridge/ESWBridge/common/
+ipch/
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+##########################################
+###### Installer temprorary files ########
+##########################################
+*.dbg
+*.inx
+*.obs
+*.cab
+*.hdr
+*.bin
+*.brk
+_[Ii][Ss][Uu]ser_*.*
+ISSetup.dll
+I[Ss]Config.ini
+isregsvr.dll
+[Ss]etup.isn
+[Ss]etup.isr
+[Ss]etup.map
+[Ss]etup.obs
+[Ss]etup.dbg
+
+##########################################
+###### Logs #########
+##########################################
+*.log
+UpgradeLog.*
+
+##########################################
+###### Others #########
+##########################################
+*UpgradeReport*/
+.git*
+*.orig
+.vs/
+/Main/References/Packages/
+/Main/Bridge/Source/packages/
+/Main/Bridge/Samples/BridgeManagedSample/packages/
